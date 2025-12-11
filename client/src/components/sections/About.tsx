@@ -3,7 +3,7 @@ import { BadgeCheck, Clock, MapPin } from "lucide-react";
 export function About() {
   return (
     <section id="about" className="py-20 bg-white">
-      <div className="container px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="space-y-6">
             <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-sm font-medium text-primary">

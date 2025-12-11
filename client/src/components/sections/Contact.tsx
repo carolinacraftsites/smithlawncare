@@ -7,7 +7,7 @@ export function Contact() {
       <div className="absolute top-0 right-0 -mt-20 -mr-20 h-96 w-96 rounded-full bg-accent/10 blur-3xl" />
       <div className="absolute bottom-0 left-0 -mb-20 -ml-20 h-96 w-96 rounded-full bg-white/5 blur-3xl" />
 
-      <div className="container relative z-10 px-4 md:px-6">
+      <div className="container mx-auto relative z-10 px-4 md:px-6">
         <div className="flex flex-col items-center text-center space-y-12">
             <div className="max-w-3xl animate-in slide-in-from-bottom-5 fade-in duration-700">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-serif mb-6">
