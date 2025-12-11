@@ -3,6 +3,7 @@ import { Phone, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import logo from "@assets/SmithLawn_4C_1765485614913.png";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,17 +24,14 @@ export function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
-      <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
+      <div className="container mx-auto flex h-24 items-center justify-between px-4 md:px-6">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <div className="flex flex-col">
-            <span className="font-serif text-xl font-bold tracking-tight text-primary md:text-2xl">
-              Smith Lawn
-            </span>
-            <span className="text-[10px] font-medium uppercase tracking-widest text-muted-foreground">
-              & Landscape Maintenance
-            </span>
-          </div>
+          <img 
+            src={logo} 
+            alt="Smith Lawn and Landscape Maintenance" 
+            className="h-16 md:h-20 w-auto object-contain py-2" 
+          />
         </Link>
 
         {/* Desktop Nav */}
