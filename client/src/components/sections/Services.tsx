@@ -47,7 +47,7 @@ export function Services() {
           </p>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
           {services.map((service, index) => (
             <Card key={index} className={`overflow-hidden border-none shadow-md transition-all hover:shadow-xl ${service.featured ? 'ring-2 ring-primary' : ''}`}>
               {service.image && (
